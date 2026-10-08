@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Subdomain takeover PoC - mail.openssl.org</title></head>
+<body>
+<h1>Subdomain takeover proof-of-concept</h1>
+<p><b>Hostname:</b> mail.openssl.org</p>
+<p>This page is served from an unaffiliated GitHub Pages repository. It demonstrates that
+mail.openssl.org resolves to GitHub Pages with no site configured, so any GitHub account can
+claim the hostname and serve arbitrary content (including over HTTPS, since a certificate has
+already been provisioned for it).</p>
+<p>No malicious intent; content will be removed immediately after verification. This finding
+is being reported through the OpenSSL security process.</p>
+<p>Timestamp: 2026-10-08. Proof reference: SH-PoC-mail-openssl-org-20261008.</p>
+</body>
+</html>
